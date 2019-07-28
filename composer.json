@@ -1,0 +1,35 @@
+{
+    "name": "ngdot/contao-changeeventsmore",
+    "description": "This extension makes it possible to replace 'Read more ...' with an individual text. Works for all forwarding destinations!",
+    "keywords": ["contao", "news"],
+    "type": "contao-bundle",
+    "homepage": "https://nicolas-goerlach.de",
+    "license": "LGPL-3.0-or-later",
+    "authors": [{
+        "name": "Nicolas Görlach",
+        "homepage": "https://nicolas-goerlach.de",
+        "email": "info@nicolas-goerlach.de",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "info@nicolas-goerlach.de",
+        "issues": "https://github.com/ngdot/contao-changeeventsmore/issues",
+        "source": "https://github.com/ngdot/contao-changeeventsmore",
+        "forum": "https://community.contao.org/de"
+    },
+    "require": {
+        "contao/core-bundle": "~4.4",
+        "contao/calendar-bundle": "~4.4"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContaoChangeEventsMoreBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "ContaoChangeEventsMoreBundle\\ContaoManager\\Plugin"
+    }
+}
