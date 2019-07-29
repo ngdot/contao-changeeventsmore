@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ContaoChangeEventsMoreBundle Bundle.
+ * This file is part of the ContaoChangeEventsMore Bundle.
  *
  * (c) Nicolas Görlach <https://github.com/ngdot>
  *
@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ContaoChangeEventsMoreBundleBundle\ContaoManager;
+namespace ContaoChangeEventsMoreBundle\ContaoManager;
 
-use ContaoChangeEventsMoreBundleBundle\ContaoChangeEventsMoreBundleBundle;
+use ContaoChangeEventsMoreBundleBundle\ContaoChangeEventsMoreBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
@@ -31,7 +31,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoChangeEventsMoreBundleBundle::class)
+            BundleConfig::create(ContaoChangeEventsMoreBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class])
         ];
     }
