@@ -11,7 +11,7 @@
 
 namespace ContaoChangeEventsMoreBundle\ContaoManager;
 
-use ContaoChangeEventsMoreBundleBundle\ContaoChangeEventsMoreBundle;
+use ContaoChangeEventsMoreBundle\ContaoChangeEventsMoreBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
